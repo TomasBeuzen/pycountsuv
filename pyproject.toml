@@ -7,7 +7,9 @@ authors = [
     { name = "Tomas Beuzen", email = "tomas.beuzen@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "matplotlib>=3.10.9",
+]
 
 [build-system]
 requires = ["uv_build>=0.11.7,<0.12.0"]
