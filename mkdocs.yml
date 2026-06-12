@@ -3,6 +3,7 @@ theme:
   name: material
 nav:
   - Home: index.md
+  - Usage: example.ipynb
   - API Reference: api.md
 plugins:
   - search
@@ -13,3 +14,5 @@ plugins:
           options:
             docstring_style: numpy
             show_submodules: true
+  - mkdocs-jupyter:
+      execute: true
