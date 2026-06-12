@@ -18,8 +18,10 @@ build-backend = "uv_build"
 [dependency-groups]
 dev = [
     "mkdocs-include-markdown-plugin>=7.3.0",
+    "mkdocs-jupyter>=0.26.3",
     "mkdocs-material>=9.7.6",
     "mkdocstrings-python>=2.0.4",
+    "notebook>=7.5.7",
     "pytest>=9.0.3",
     "pytest-cov>=7.1.0",
     "ruff>=0.15.17",
