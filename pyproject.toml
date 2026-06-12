@@ -17,6 +17,9 @@ build-backend = "uv_build"
 
 [dependency-groups]
 dev = [
+    "mkdocs-include-markdown-plugin>=7.3.0",
+    "mkdocs-material>=9.7.6",
     "pytest>=9.0.3",
     "pytest-cov>=7.1.0",
+    "ruff>=0.15.17",
 ]
